@@ -35,10 +35,10 @@ jobs:
           echo What is this directory?
           ls -a
           echo
-          echo is jav ainstalled"
-          jave --version
+          echo Is java installed?"
+          java --version
           echo
-          echo is git installed?
+          echo Is git installed?
           git --version
           gradle --version
           ant -version
