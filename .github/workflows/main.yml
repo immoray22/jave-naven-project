@@ -20,7 +20,7 @@ jobs:
         run: ls
       
       - name: steps 2 - checkout the main github branch
-        uses: actions/chekout@v2
+        uses: actions/checkout@v2
         
       - name: step 3 - setup JDK 1.8
         uses: actions/setup-java@v1
